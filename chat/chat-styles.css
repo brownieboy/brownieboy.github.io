@@ -1,0 +1,29 @@
+body, html {
+  margin: 0;
+  height: 100%;
+}
+
+body {
+  background-image: url('journey-temenos-doco.jpg');
+  background-size: cover; /* Ensure background image covers the whole viewport */
+  background-position: center; /* Center the background image */
+}
+
+.content {
+  padding: 20px;
+}
+
+.iframe-container {
+  position: absolute; /* Absolutely position the iframe container */
+  top: 50px; /* Adjust the top position as needed */
+  right: 50px; /* Adjust the right position as needed */
+  width: 40%; /* Set the width of the iframe container */
+  height: 500px; /* Set the height of the iframe container */
+  z-index: 10; /* Ensure the iframe floats on top of other elements */
+}
+
+iframe {
+  width: 100%; /* Ensure the iframe takes up the full width of its container */
+  height: 100%; /* Ensure the iframe takes up the full height of its container */
+  border: none; /* Remove the default border */
+}
